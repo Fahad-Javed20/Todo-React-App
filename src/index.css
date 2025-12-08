@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body takes full height and no extra space */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Optional: no scroll gap */
+body {
+  overflow-x: hidden;
+}
