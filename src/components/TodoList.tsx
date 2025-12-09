@@ -31,7 +31,7 @@ const TodoList = ({ todos, onDelete, onEdit }: TodoListProps) => {
   };
 
   return (
-    <div className="mt-5 w-3/5 mx-auto">
+    <div className="mt-5 w-3/5 mx-auto bg-gray-200 p-10">
       {todos.map((item, index) => (
         <div
           key={index}

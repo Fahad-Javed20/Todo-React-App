@@ -23,8 +23,7 @@ const TodoForm = ({ onAddTodo }: TodoFormProps) => {
 
   return (
     <div className=" flex flex-col items-center gap-6">
-      <h1 className="bg-blue-900 text-white text-2xl font-bold py-1
-                     rounded-lg w-1/4 mx-auto text-center shadow-lg">
+      <h1 className="bg-blue-900 text-white text-2xl font-bold py-1 rounded-lg w-1/4 mx-auto text-center shadow-lg">
         Todo App
       </h1>
 
