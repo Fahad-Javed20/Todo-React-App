@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="max-w-7xl h-12 mx-auto px-5 py-5 flex justify-between items-center">
         
         <a href="#" className="text-xl font-semibold text-blue-600 dark:text-blue-400">
-          MyBrand
+          MyApp
         </a>
 
         <ul className="hidden md:flex gap-8 text-gray-700 dark:text-gray-300 font-medium">
@@ -19,7 +19,7 @@ const Header = () => {
           <li><a href="#" className="hover:text-blue-600 dark:hover:text-blue-400">Contact</a></li>
         </ul>
 
-        <button className="hidden md:block px-5 w-24 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
+        <button className="hidden md:block px-5 w-24 py-1 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
           Login
         </button>
 
@@ -40,7 +40,7 @@ const Header = () => {
             <li><a href="#" className="hover:text-blue-600 dark:hover:text-blue-400">Contact</a></li>
           </ul>
 
-          <button className="mt-4 w-full px-5 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
+          <button className=" w-full px-5 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
             Login
           </button>
         </div>
