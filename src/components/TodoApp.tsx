@@ -14,7 +14,7 @@ setTodos([...todos, data])
     <div className="flex flex-col gap-5">
         <Header />
         <TodoForm  onAddTodo = {handelTodo}/>
-        <TodoList />
+        <TodoList todo={todos} />
     </div>
   )
 }
